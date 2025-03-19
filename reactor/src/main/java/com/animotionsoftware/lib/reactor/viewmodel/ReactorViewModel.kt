@@ -38,7 +38,7 @@ abstract class ReactorViewModel<Event : ReactorEvent, State>(initialState: State
     val flow: ReactorFlow<State> = mutableFlow.asStateFlow()
 
     /** Provides easy access to the current state. */
-    protected val state get() = flow.value.state
+    val state get() = flow.value.state
 
     /**
      * Registers an event handler for a specific event type.

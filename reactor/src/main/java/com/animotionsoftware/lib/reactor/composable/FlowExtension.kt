@@ -19,7 +19,7 @@ import kotlin.coroutines.EmptyCoroutineContext
  * Collects values from this [ReactorFlow] and represents its latest value via [State] in a
  * lifecycle-aware manner.
  *
- * **Notes:** It's similar to `collectAsStateWithLifecycle()`
+ * **Note:** It's similar to `collectAsStateWithLifecycle()`
  *
  * **Usage:**
  * ```
