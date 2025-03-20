@@ -178,7 +178,7 @@ dependencies {
 
 ## License
 
-```xml
+```text
 Designed and developed by 2025 Christian Rodriguez
 
 Licensed under the Apache License, Version 2.0 (the "License");
