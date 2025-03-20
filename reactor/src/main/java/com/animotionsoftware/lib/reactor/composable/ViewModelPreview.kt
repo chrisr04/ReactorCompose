@@ -9,7 +9,7 @@ import com.animotionsoftware.lib.reactor.viewmodel.ReactorViewModelMock
  * Creates an instance of a [ReactorViewModel] for use in Jetpack Compose previews.
  *
  * This function returns a mock implementation of [ReactorViewModel] with the given initial state.
- * It is useful for providing a ViewModel instance in a preview environment without requiring
+ * It's useful for providing a ViewModel instance in a preview environment without requiring
  * actual business logic.
  *
  * **Usage:**

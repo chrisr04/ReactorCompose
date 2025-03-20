@@ -81,7 +81,10 @@ fun <T> ReactorEffect(
  * When [mode] is [Startable], it allows the `onStart` logic to be called only once until the screen is disposed.
  *
  * ```
- *  ReactorEffect(flow){ state ->
+ *  ReactorEffect(
+ *      flow,
+ *      mode = EffectMode.Startable
+ *  ){ state ->
  *
  *      // This is called when a new state is emitted
  *
