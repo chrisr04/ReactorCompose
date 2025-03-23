@@ -91,7 +91,6 @@ fun LogInScreen(
             )
             LogInPasswordField(
                 password = state.password,
-                readOnly = state.isLoading,
                 onChangePassword = { onEvent(ChangePasswordEvent(it)) }
             )
             LogInButton(

@@ -2,6 +2,7 @@ plugins {
     alias(libs.plugins.android.library)
     alias(libs.plugins.kotlin.android)
     alias(libs.plugins.kotlin.compose)
+    alias(libs.plugins.maven.publish)
 }
 
 android {
@@ -34,7 +35,6 @@ android {
 }
 
 dependencies {
-
     implementation(libs.androidx.lifecycle.viewmodel.ktx)
     implementation(platform(libs.androidx.compose.bom))
     implementation(libs.androidx.ui)
