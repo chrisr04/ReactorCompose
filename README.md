@@ -26,11 +26,11 @@ class LogInViewModel() : ReactorViewModel<LogInEvent, LogInState>(LogInState()) 
     }
 
     private fun onChangeEmailEvent(event: ChangeEmailEvent) {
-        // Handle your event logic
+        emit(state.copy(email = event.email))
     }
 
     private fun onChangePasswordEvent(event: ChangePasswordEvent) {
-        // Handle your event logic
+        emit(state.copy(password = event.password))
     }
 
     private fun onValidateUserEvent() {
