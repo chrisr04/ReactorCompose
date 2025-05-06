@@ -45,7 +45,7 @@ sealed interface LogInEvent : ReactorEvent {
     data object ValidateUserEvent : LogInEvent
 }
 
-//Define your state
+// Define your state
 data class LogInState(
     val email: String = "",
     val password: String = "",
