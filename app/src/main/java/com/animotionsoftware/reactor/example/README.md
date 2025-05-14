@@ -10,7 +10,7 @@ This project follows the **MVI pattern**, which separates concerns into three ma
 - **View** – A Compose UI that renders based on the current state.
 - **Intent** – User actions or events that are translated into state changes.
 
-## Project structure
+## Project Structure
 ```bash
 .
 ├── domain
