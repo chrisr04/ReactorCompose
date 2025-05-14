@@ -1,7 +1,5 @@
 # Reactor Implementation Example
 
-A simple Android project built with **Jetpack Compose** that demonstrates the **MVI (Model-View-Intent)** architecture using Reactor package.
-
 This is a basic example focused on showcasing how to use **MVI** with a simple **Reactor** implementation. The structure is intentionally simple to highlight the core ideas, but it's flexible enough to adapt to more robust architectures such as **Clean Architecture**, and organization patterns like **feature-first** or **layer-first**.
 
 ## Architecture
@@ -37,10 +35,10 @@ This project follows the **MVI pattern**, which separates concerns into three ma
 
 ## Core Components
 
-- State – A data class that represents the UI at any point in time.
-- ReactorEvent – Sealed class that defines possible user interactions (intents).
-- ReactorViewModel – Receives events, processes logic, and updates the state.
-- Compose UI – Observes state and reacts declaratively.
+- **State** – A data class that represents the UI at any point in time.
+- **ReactorEvent** – Sealed class that defines possible user interactions (intents).
+- **ReactorViewModel** – Receives events, processes logic, and updates the state.
+- **Compose UI** – Observes state and reacts declaratively.
 
 ## Getting Started
 
