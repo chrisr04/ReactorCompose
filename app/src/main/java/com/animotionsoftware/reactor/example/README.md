@@ -1,8 +1,38 @@
-# Reactor Implementation Example
+![Kotlin](https://img.shields.io/badge/Kotlin-2.0.21-%238333ff?style=flat-square)
 
+<div align="center"> 
+   <img alt="reactor-logo" src="https://github.com/user-attachments/assets/496b82a3-0651-4f28-8b0c-3e36ff01e004"/> 
+</div>
+
+<h1 align="center">
+    Reactor Implementation Example
+</h1>
+
+
+<p align="center">
+  <a href="#topics">Topics</a> •
+  <a href="#tecnologies">Tecnologies</a> •
+  <a href="#about-project">About project</a> •
+  <a href="#installation">Installation</a> •
+  <a href="#author">Author</a>
+</p>
+
+## Topics
+
+* Android
+* Jetpack Compose
+* MVI
+* Kotlin
+
+## Tecnologies
+### This project uses:
+- [Kotlin] version 2.0.21
+
+
+## About project
 This is a basic example focused on showcasing how to use **MVI** with a simple **Reactor** implementation. The structure is intentionally simple to highlight the core ideas, but it's flexible enough to adapt to more robust architectures such as **Clean Architecture**, and organization patterns like **feature-first** or **layer-first**.
 
-## Architecture
+### Architecture
 
 This project follows the **MVI pattern**, which separates concerns into three main components:
 
@@ -10,7 +40,7 @@ This project follows the **MVI pattern**, which separates concerns into three ma
 - **View** – A Compose UI that renders based on the current state.
 - **Intent** – User actions or events that are translated into state changes.
 
-## Project Structure
+### Structure
 ```bash
 .
 ├── domain
@@ -33,14 +63,14 @@ This project follows the **MVI pattern**, which separates concerns into three ma
 └── MainActivity.kt
 ```
 
-## Core Components
+### Core Components
 
 - **State** – A data class that represents the UI at any point in time.
 - **ReactorEvent** – Sealed class that defines possible user interactions (intents).
 - **ReactorViewModel** – Receives events, processes logic, and updates the state.
 - **Compose UI** – Observes state and reacts declaratively.
 
-## Getting Started
+## Installation
 
 1. Clone the repo:
     ```bash
@@ -49,3 +79,8 @@ This project follows the **MVI pattern**, which separates concerns into three ma
 2. Open the project in Android Studio.
 
 3. Run the app on an emulator or physical device.
+
+## Author
+
+| [<img src="https://github.com/chrisr04.png" width=115><br><sub>Christian Rodriguez</sub>](https://github.com/chrisr04) | 
+|:----------------------------------------------------------------------------------------------------:|
