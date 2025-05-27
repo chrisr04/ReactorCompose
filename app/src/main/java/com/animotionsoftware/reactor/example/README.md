@@ -8,11 +8,13 @@
     Reactor Implementation Example
 </h1>
 
+This is a basic example focused on showcasing how to use **MVI** with a simple **Reactor** implementation. The structure is intentionally simple to highlight the core ideas, but it's flexible enough to adapt to more robust architectures such as **Clean Architecture**, and organization patterns like **feature-first** or **layer-first**.
 
 <p align="center">
   <a href="#topics">Topics</a> •
   <a href="#tecnologies">Tecnologies</a> •
   <a href="#about-project">About project</a> •
+  <a href="#demo">Demo</a> •
   <a href="#installation">Installation</a> •
   <a href="#author">Author</a>
 </p>
@@ -30,7 +32,8 @@
 
 
 ## About project
-This is a basic example focused on showcasing how to use **MVI** with a simple **Reactor** implementation. The structure is intentionally simple to highlight the core ideas, but it's flexible enough to adapt to more robust architectures such as **Clean Architecture**, and organization patterns like **feature-first** or **layer-first**.
+### What's MVI?
+The MVI (Model–View–Intent) pattern is an architecture pattern that ensures data flows in a single direction, which helps keep your application more predictable and easier to debug. In short, it will be easier to find bugs, and you’ll be able to test each component of the application in a easy way.
 
 ### Architecture
 
@@ -69,6 +72,19 @@ This project follows the **MVI pattern**, which separates concerns into three ma
 - **ReactorEvent** – Sealed class that defines possible user interactions (intents).
 - **ReactorViewModel** – Receives events, processes logic, and updates the state.
 - **Compose UI** – Observes state and reacts declaratively.
+
+### MVI Diagram
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/975a36b5-93ef-4776-b00f-71d2f9579509"/>
+</p>
+
+## Demo
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/8d112017-7ffa-4a44-b386-59943b657edf" alt="Reactor Example" width="300"/>
+</p>
+
 
 ## Installation
 
